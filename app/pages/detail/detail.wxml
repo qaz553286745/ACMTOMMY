@@ -1,0 +1,10 @@
+<!--detail.wxml-->
+<button type="default" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="default" hover-class="other-button-hover"> 宁静der不der？</button>
+<button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary">A.那必须der啊</button>
+<button type="warn" size="{{warnSize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="warn">B.不der..没理由啊 </button>
+<button bindtap="setDisabled">C.小der啦</button>
+<button bindtap="setPlain">D.不der怎么叫宁静</button>
+<button bindtap="setLoading">E.以上都有道理</button>

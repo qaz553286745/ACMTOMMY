@@ -1,0 +1,42 @@
+<!--pages/shop/shop.wxml-->
+
+
+
+<swiper indicator-dots="true"
+  autoplay="{true}" interval="2000" duration="2000">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="img1" />
+    </swiper-item>
+  </block>
+</swiper>
+
+
+    <view class="text">
+        <view class="line_flag"></view>
+        <text>商品</text>
+    </view>
+
+
+
+
+    <view class="choice_box">
+        <view class="choice_list">
+           
+                    <image src="../image/beizi.jpg" class="img1"></image>
+                    <button>
+                    购买
+                    </button >
+                    <navigator url="../chat/chat">
+                    chat
+                    </navigator>
+                    <image src="../image/weijin.jpg" class="img1" ></image>
+                    <button>
+                    购买
+                    </button>
+                    <navigator url="../chat/chat">
+                    chat
+                    </navigator>
+        </view>
+    </view>
+

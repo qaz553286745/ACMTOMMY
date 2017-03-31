@@ -1,0 +1,13 @@
+<!--pages/chat/chat.wxml-->
+<view class=".head" >
+    <block class="head">
+    <text class=".head">聊天</text>
+    </block>
+</view>
+
+<view class="inputView">
+<input class="input" password="true" placeholder="请输入文字" placeholder-style="color: gray" bindinput="listenerPasswordInput"/>
+</view>
+
+
+<button style="margin-left: 15rpx; margin-right: 15rpx; margin-top: 50rpx; border-radius: 40rpx" type="primary" bindtap="listenerLogin">发送</button>

@@ -1,0 +1,10 @@
+<!--pages/util/util.wxml-->
+<view class="group">
+  <navigator url="../shop/shop">积分商店</navigator>
+<text>
+"你的名字\n\b"
+</text>
+  <block wx:for="11111">
+    <icon type="search" size="40"/>
+  </block>
+</view>

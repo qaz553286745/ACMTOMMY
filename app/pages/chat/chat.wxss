@@ -1,0 +1,7 @@
+/* pages/chat/chat.wxss */
+.head
+{
+    height: 300rpx;
+    width: 100%;
+    background-color: #09bb07;
+}

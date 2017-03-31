@@ -1,0 +1,39 @@
+{
+  "pages":[
+        "pages/shop/shop",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/check/check",
+    "pages/what/what",
+    "pages/detail/detail",
+    "pages/lists/lists",
+    "pages/util/util",
+    "pages/chat/chat"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "what"},
+      {
+        "pagePath":"pages/logs/logs",
+      "text":"whatfuck"
+    },{
+      "pagePath":"pages/check/check",
+      "text":"you konw"
+    },{
+      "pagePath":"pages/detail/detail",
+      "text":"detail"
+    },{
+      "pagePath":"pages/util/util",
+      "text":"util"
+    }
+    ]
+  }
+}
