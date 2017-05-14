@@ -1,5 +1,6 @@
 //app.js
 var order = ['red', 'yellow', 'blue', 'green', 'red']
+//var order = ['red', 'yellow', 'blue', 'green', 'red']
 /*App({
    
   onLaunch: function () {
